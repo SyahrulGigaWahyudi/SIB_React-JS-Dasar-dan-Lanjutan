@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* ===== Navbar biru muda ===== */
+.navbar-libby {
+  background: linear-gradient(90deg, #d6ecff 0%, #bde0fe 100%);
+  border-bottom: 1px solid #a2d2ff;
+}
+
+.navbar-libby .navbar-brand {
+  color: #0b4f8a;
+  font-size: 1.35rem;
+  letter-spacing: 0.3px;
+}
+
+.navbar-libby .nav-link {
+  color: #1d5f99;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navbar-libby .nav-link:hover {
+  background: rgb(255 255 255 / 55%);
+  color: #0b4f8a;
+}
+
+.navbar-libby .nav-link.active {
+  background: #fff;
+  color: #0b4f8a;
+  font-weight: 700;
+}
+
+.navbar-libby .navbar-toggler {
+  border-color: #6aaee6;
+}
+
+/* ===== Footer biru muda ===== */
+.footer-libby {
+  background: linear-gradient(90deg, #bde0fe 0%, #d6ecff 100%);
+  color: #0b4f8a;
+  border-top: 1px solid #a2d2ff;
+}
+
+.footer-libby .container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-libby__nav {
+  border-color: #8cc4f2 !important;
+}
+
+.footer-libby .nav-link {
+  color: #1d5f99;
+  font-weight: 500;
+}
+
+.footer-libby .nav-link:hover {
+  color: #0b4f8a;
+  text-decoration: underline;
+}
+
+.footer-libby__copy {
+  color: #1d5f99;
+}
+
+/* ===== Responsif ===== */
+.display-4 {
+  font-size: clamp(1.9rem, 6vw, 3.5rem);
+}
+
+@media (max-width: 575.98px) {
+  .card-list__card .card-img-top {
+    height: 280px !important;
+  }
+}
