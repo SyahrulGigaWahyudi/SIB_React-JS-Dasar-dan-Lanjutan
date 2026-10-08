@@ -1,0 +1,30 @@
+/* ===== Footer biru muda ===== */
+.footer-libby {
+  background: linear-gradient(90deg, #bde0fe 0%, #d6ecff 100%);
+  color: #0b4f8a;
+  border-top: 1px solid #a2d2ff;
+}
+
+.footer-libby .container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-libby__nav {
+  border-color: #8cc4f2 !important;
+}
+
+.footer-libby .nav-link {
+  color: #1d5f99;
+  font-weight: 500;
+}
+
+.footer-libby .nav-link:hover,
+.footer-libby .nav-link.active {
+  color: #0b4f8a;
+  text-decoration: underline;
+}
+
+.footer-libby__copy {
+  color: #1d5f99;
+}
