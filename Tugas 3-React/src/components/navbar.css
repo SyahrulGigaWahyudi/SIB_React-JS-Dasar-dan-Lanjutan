@@ -1,0 +1,66 @@
+.navbar-libby {
+  background: linear-gradient(90deg, #d6ecff 0%, #bde0fe 100%);
+  border-bottom: 1px solid #a2d2ff;
+}
+
+.navbar-libby .navbar-brand {
+  color: #0b4f8a;
+  font-size: 1.35rem;
+  letter-spacing: 0.3px;
+  transition: transform 0.2s;
+}
+
+.navbar-libby .navbar-brand:hover {
+  transform: scale(1.04);
+}
+
+.navbar-libby .nav-link {
+  position: relative;
+  color: #1d5f99;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.15rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navbar-libby .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: 0;
+  height: 3px;
+  border-radius: 3px;
+  background: #0b4f8a;
+  transform: translateX(-50%);
+  transition: width 0.25s ease;
+}
+
+.navbar-libby .nav-link:hover {
+  background: rgb(255 255 255 / 55%);
+  color: #0b4f8a;
+}
+
+.navbar-libby .nav-link:hover::after {
+  width: 40%;
+}
+
+.navbar-libby .nav-link.active {
+  background: #fff;
+  color: #0b4f8a;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgb(11 79 138 / 15%);
+}
+
+.navbar-libby .nav-link.active::after {
+  width: 60%;
+}
+
+.navbar-libby .navbar-toggler {
+  border-color: #6aaee6;
+}
+
+.navbar-libby .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgb(11 79 138 / 25%);
+}

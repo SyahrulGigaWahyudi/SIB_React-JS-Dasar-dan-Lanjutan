@@ -1,0 +1,77 @@
+// books.js
+const books = [
+  {
+    id: 1,
+    title: "Bumi",
+    author: "Tere Liye",
+    year: 2014,
+    description: "Petualangan Raib, Seli, dan Ali menjelajahi dunia paralel penuh rahasia dan kekuatan tak terduga.",
+    image: "/img/bumi.jpg",
+  },
+  {
+    id: 2,
+    title: "Laskar Pelangi",
+    author: "Andrea Hirata",
+    year: 2005,
+    description: "Kisah inspiratif sepuluh anak Belitung yang berjuang meraih pendidikan dengan mimpi besar.",
+    image: "/img/laskar-pelangi.jpg",
+  },
+  {
+    id: 3,
+    title: "Tanah Para Bandit",
+    author: "Tere Liye",
+    year: 2023,
+    description: "Cerita tentang kekuasaan, kejahatan, dan pilihan hidup di dunia yang dikuasai para bandit.",
+    image: "/img/tanah-para-bandit.jpg",
+  },
+  {
+    id: 4,
+    title: "Filosofi Teras",
+    author: "Henry Manampiring",
+    year: 2018,
+    description: "Filsafat Stoa untuk membangun mental yang tangguh dan hidup lebih tenang di masa kini.",
+    image: "/img/filosofi-teras.jpg",
+  },
+  {
+    id: 5,
+    title: "Negeri 5 Menara",
+    author: "A. Fuadi",
+    year: 2009,
+    description: "Perjalanan enam santri di pondok pesantren dengan mantra sakti: man jadda wajada.",
+    image: "/img/negeri-5-menara.jpg",
+  },
+  {
+    id: 6,
+    title: "Atomic Habits",
+    author: "James Clear",
+    year: 2018,
+    description: "Cara praktis membangun kebiasaan baik lewat perubahan kecil yang konsisten.",
+    image: "/img/atomic-habits.jpg",
+  },
+  {
+    id: 7,
+    title: "Pulang",
+    author: "Tere Liye",
+    year: 2015,
+    description: "Perjalanan Bujang, anak pedalaman yang masuk ke dunia gelap shadow economy dan mencari jalan pulang.",
+    image: "/img/01pulang.jpg",
+  },
+  {
+    id: 8,
+    title: "Sapiens",
+    author: "Yuval Noah Harari",
+    year: 2011,
+    description: "Sejarah singkat umat manusia, dari zaman batu sampai lahirnya negara, uang, dan teknologi.",
+    image: "/img/sapiens.jpg",
+  },
+  {
+    id: 9,
+    title: "Cantik Itu Luka",
+    author: "Eka Kurniawan",
+    year: 2002,
+    description: "Novel saga keluarga Dewi Ayu yang bangkit dari kubur, bercampur sejarah, mitos, dan kisah cinta.",
+    image: "/img/cantikituluka.jpg",
+  },
+];
+
+export default books;
